@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>CleanArchitecture.Domain</RootNamespace>
+        <AssemblyName>CleanArchitecture.Domain</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Events\" />
+      <Folder Include="Exceptions\" />
+      <Folder Include="ValueObjects\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.4" />
+    </ItemGroup>
+
+</Project>
